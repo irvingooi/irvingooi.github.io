@@ -121,11 +121,13 @@ footer a {
 	body {
 		margin: 3em 1em;
 		font-size: 0.9em;
+		line-height: 1.6;
 	}
 
 		.section {
 			float: none;
 			margin-bottom: 1em;
+			margin-right: 7em;
 		}
 
 		.mark {
@@ -139,5 +141,6 @@ footer a {
 
 		footer li {
 			display: block;
+			margin-bottom:0.5em;
 		}
 }
