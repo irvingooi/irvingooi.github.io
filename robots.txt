@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 # Sitemap Reference
-Sitemap: http://irvingooi.com/sitemap.xml
+Sitemap: https://irvingooi.com/sitemap.xml
