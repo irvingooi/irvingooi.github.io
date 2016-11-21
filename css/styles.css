@@ -1,6 +1,6 @@
 body {
 	margin: 7em auto;
-	max-width: 47em;
+	max-width: 50em;
 	background: hsla(180,14%,99%,1);
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	font-weight: 300;
@@ -120,7 +120,7 @@ footer a {
 @media all and (max-width: 45em) {
 	body {
 		margin: 3em 1em;
-		font-size: 0.9em;
+		font-size: 1em;
 		line-height: 1.6;
 	}
 
@@ -136,11 +136,42 @@ footer a {
 		}
 
 		footer ul {
-			padding-top: 1.5em;
+			padding-top: 0.5em;
 		}
 
 		footer li {
 			display: block;
-			margin-bottom:0.5em;
+			margin-bottom: 0.6em;
 		}
+}
+/*
+ * FadeIn animation
+*/
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+/*
+ * FadeOut animation
+*/
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes fadeOut{
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
 }
