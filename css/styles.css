@@ -32,7 +32,7 @@ a {
 
 a:hover {
     color: hsla(204,59%,45%,1);
-    border-bottom: 1px solid hsla(204,67%,54%,0.75);
+    border-bottom: 2px solid hsla(204,67%,54%,0.75);
 }
 
 .section {
