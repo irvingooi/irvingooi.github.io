@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 Disallow: *.pdf
 # Sitemap Reference
-Sitemap: https://irvingooi.com/sitemap.xml
+Sitemap: https://irvingooi.svbtle.com/sitemap.xml
